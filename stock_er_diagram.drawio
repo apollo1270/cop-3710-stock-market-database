@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.5.1">
+  <diagram name="Page-1" id="8HradjgCiiySsuVmwBoR">
+    <mxGraphModel dx="1418" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qUIzB_2vcHaayuDensFi-25" edge="1" parent="1" source="qUIzB_2vcHaayuDensFi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qUIzB_2vcHaayuDensFi-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="70" />
+              <mxPoint x="670" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-26" connectable="0" parent="qUIzB_2vcHaayuDensFi-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.9425" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-27" connectable="0" parent="qUIzB_2vcHaayuDensFi-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="M" vertex="1">
+          <mxGeometry relative="1" x="0.9225" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-1" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Stock" vertex="1">
+          <mxGeometry height="120" width="160" x="100" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-2" parent="qUIzB_2vcHaayuDensFi-1" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK ticker_symbol&lt;br&gt;company_name&lt;br&gt;exchange&lt;br&gt;sector_id (FK) [optional]" vertex="1">
+          <mxGeometry height="80" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=8;whiteSpace=wrap;html=1;" value="Stock _Price" vertex="1">
+          <mxGeometry height="160" width="160" x="330" y="110" as="geometry">
+            <mxRectangle height="50" width="120" x="310" y="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-4" parent="qUIzB_2vcHaayuDensFi-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK ticker_symbol (FK)&lt;br&gt;PK price_date&lt;br&gt;open_price&lt;br&gt;high_price&lt;br&gt;low_price&lt;br&gt;close_price&lt;br&gt;adj_close&lt;br&gt;volume" vertex="1">
+          <mxGeometry height="120" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-7" edge="1" parent="1" source="qUIzB_2vcHaayuDensFi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" target="qUIzB_2vcHaayuDensFi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-8" connectable="0" parent="qUIzB_2vcHaayuDensFi-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.5619" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-9" connectable="0" parent="qUIzB_2vcHaayuDensFi-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="M" vertex="1">
+          <mxGeometry relative="1" x="0.506" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-13" edge="1" parent="1" source="qUIzB_2vcHaayuDensFi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qUIzB_2vcHaayuDensFi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-14" connectable="0" parent="qUIzB_2vcHaayuDensFi-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.5455" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-15" connectable="0" parent="qUIzB_2vcHaayuDensFi-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="M" vertex="1">
+          <mxGeometry relative="1" x="0.5636" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-10" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Sector" vertex="1">
+          <mxGeometry height="120" width="160" x="100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-11" parent="qUIzB_2vcHaayuDensFi-10" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK sector_id&lt;br&gt;sector_name&lt;br&gt;description" vertex="1">
+          <mxGeometry height="80" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-16" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Analyst" vertex="1">
+          <mxGeometry height="120" width="160" x="350" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-17" parent="qUIzB_2vcHaayuDensFi-16" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK analyst_id&lt;br&gt;analyst_name&lt;br&gt;firm_name&lt;br&gt;email [optional]" vertex="1">
+          <mxGeometry height="80" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-18" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Rating" vertex="1">
+          <mxGeometry height="140" width="160" x="590" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-19" parent="qUIzB_2vcHaayuDensFi-18" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK analyst_id (FK)&lt;br&gt;PK ticker_symbol (FK)&lt;br&gt;PK rating_date&lt;br&gt;rating_value&lt;br&gt;price_target [optional]" vertex="1">
+          <mxGeometry height="100" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-21" edge="1" parent="1" source="qUIzB_2vcHaayuDensFi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="qUIzB_2vcHaayuDensFi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-22" connectable="0" parent="qUIzB_2vcHaayuDensFi-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.575" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-23" connectable="0" parent="qUIzB_2vcHaayuDensFi-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="M" vertex="1">
+          <mxGeometry relative="1" x="0.55" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-28" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Company_Profile" vertex="1">
+          <mxGeometry height="120" width="160" x="100" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-29" parent="qUIzB_2vcHaayuDensFi-28" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK ticker_symbol (FK)&lt;br&gt;ceo_name&lt;br&gt;headquarters&lt;br&gt;founded_year" vertex="1">
+          <mxGeometry height="80" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-30" edge="1" parent="1" source="qUIzB_2vcHaayuDensFi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.019;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" target="qUIzB_2vcHaayuDensFi-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="170" />
+              <mxPoint x="50" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-31" connectable="0" parent="qUIzB_2vcHaayuDensFi-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.9321" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUIzB_2vcHaayuDensFi-32" connectable="0" parent="qUIzB_2vcHaayuDensFi-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.9134" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
